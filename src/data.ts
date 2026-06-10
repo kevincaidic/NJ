@@ -193,7 +193,7 @@ export const CREDENTIALS: Credential[] = [
     issuer: 'Training Program',
     year: '2023',
     badgeColor: 'border-emerald-200 bg-emerald-50/50 text-emerald-700',
-    image: '/cert/ojt.png'
+    image: '/cert/ojt.webp'
   },
   {
     id: 'c-4',
