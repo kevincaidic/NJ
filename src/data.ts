@@ -27,7 +27,7 @@ export const PROJECT_DATA: Project[] = [
     impactLabel: 'Conversion Rate on Investor Signup',
     scope: ['Institutional UX', 'Component Library', 'Interactive Charts', 'Fintech Branding'],
     color: 'from-blue-600/20 to-indigo-600/20 text-brand-cobalt bg-indigo-50/50',
-    image: '/project/healthcardgo front.webp'
+    image: '/project/healthcardgo.webp'
   }
 ];
 
