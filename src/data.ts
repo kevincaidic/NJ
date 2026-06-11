@@ -109,6 +109,14 @@ export const WORK_PROCESS_STEPS: ProcessStep[] = [
   },
   {
     step: '05',
+    phase: 'ADVANCED TRAINING',
+    title: 'Binhi Professional Development',
+    description: 'Completed specialized Binhi professional development program focusing on practical design applications, industry innovations, and professional excellence.',
+    deliverables: ['Binhi Certification', 'Practical design applications', 'Professional excellence standards'],
+    duration: 'Completed'
+  },
+  {
+    step: '06',
     phase: 'PORTFOLIO GROWTH',
     title: 'Systematic Design Excellence',
     description: 'Building a comprehensive portfolio through continuous professional development, project execution, and industry recognition through exhibitions and certifications.',
@@ -210,6 +218,14 @@ export const CREDENTIALS: Credential[] = [
     year: '2024',
     badgeColor: 'border-rose-200 bg-rose-50/50 text-rose-700',
     image: '/cert/pasinati day 3.webp'
+  },
+  {
+    id: 'c-6',
+    title: 'Binhi Certification',
+    issuer: 'Professional Development',
+    year: '2024',
+    badgeColor: 'border-indigo-200 bg-indigo-50/50 text-indigo-700',
+    image: '/cert/binhi.jpg'
   }
 ];
 

@@ -18,7 +18,7 @@ export default function Header() {
     { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
     { name: 'Work', href: '#work' },
-    { name: 'Process', href: '#process' },
+    { name: 'Certificates', href: '#process' },
   ];
 
   return (
