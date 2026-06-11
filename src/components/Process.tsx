@@ -205,7 +205,7 @@ export default function Process() {
             <div className="group relative overflow-hidden rounded-2xl bg-white border border-luxury-dark/5 hover:border-brand-violet/20 hover:shadow-xl transition-all duration-300">
               <div className="aspect-[4/3] overflow-hidden">
                 <img 
-                  src="/cert/ojt.webp" 
+                  src="/cert/OJT.jpg" 
                   alt="On-the-Job Training Certificate"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -255,6 +255,25 @@ export default function Process() {
                 </div>
                 <h3 className="font-display text-sm font-bold text-luxury-dark">Pasinati Design Workshop - Day 3</h3>
                 <p className="font-sans text-xxs text-luxury-gray">Completed advanced design collaboration and prototyping session</p>
+              </div>
+            </div>
+
+            {/* Certificate 6: Binhi */}
+            <div className="group relative overflow-hidden rounded-2xl bg-white border border-luxury-dark/5 hover:border-brand-violet/20 hover:shadow-xl transition-all duration-300">
+              <div className="aspect-[4/3] overflow-hidden">
+                <img 
+                  src="/cert/binhi.jpg" 
+                  alt="Binhi Professional Development Certificate"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="p-5 space-y-2">
+                <div className="flex items-center gap-2 text-brand-coral">
+                  <Award className="h-4 w-4" />
+                  <span className="font-mono text-[9px] uppercase font-bold tracking-widest">Workshop</span>
+                </div>
+                <h3 className="font-display text-sm font-bold text-luxury-dark">Binhi Professional Development</h3>
+                <p className="font-sans text-xxs text-luxury-gray">Completed specialized professional development program</p>
               </div>
             </div>
 
